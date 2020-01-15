@@ -1,8 +1,43 @@
 body {
+  display: grid;
   font-family: 'Nanum Square';
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 150px 1fr;
+  margin :0px;
+  font-weight: normal;
 }
 a {
   color: black;
   text-decoration: none;
   font-weight: bolder;
+}
+
+#title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #419eb0;
+  margin: 0px;
+  padding-top:10px;
+  padding-left:10px;
+  box-shadow: 0px 3px 10px grey;
+  color : white;
+}
+
+#menu {
+  background-color: #41b08b;
+  list-style:none;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 10px grey;
+  color : white;
+  font-size: 150%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#main-page {
+  padding-left: 30px;
+  box-shadow: 3px 3px 10px grey;
+  margin: 40px;
+  border-radius: 10px;
 }
