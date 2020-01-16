@@ -17,10 +17,10 @@ a {
   grid-column-end: 3;
   background-color: #419eb0;
   margin: 0px;
-  padding-top:10px;
   padding-left:10px;
-  box-shadow: 0px 3px 10px grey;
+  box-shadow: 0px 3px 7px grey;
   color : white;
+  font-size: 300%;
 }
 
 #menu {
@@ -29,7 +29,7 @@ a {
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  box-shadow: 3px 3px 10px grey;
+  box-shadow: 3px 3px 7px grey;
   color : white;
   font-size: 150%;
   border-radius: 0px 10px 10px 0px;
@@ -37,7 +37,7 @@ a {
 
 #main-page {
   padding-left: 30px;
-  box-shadow: 3px 3px 10px grey;
+  box-shadow: 3px 3px 20px grey;
   margin: 24px;
   border-radius: 10px;
 }
